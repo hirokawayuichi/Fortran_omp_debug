@@ -14,7 +14,7 @@ program main
 ! === Calculation ===
 !$OMP PARALLEL DO DEFAULT(shared) PRIVATE(i)
   do i = 1, IMAX
-    call sub_test(Ia(i), Ib(i), Ic(i), Id(i),i)
+    call sub_test(Ia(i), Ib(i), Ic(i), Id(i), i)
   enddo 
 !$OMP END PARALLEL DO
 
