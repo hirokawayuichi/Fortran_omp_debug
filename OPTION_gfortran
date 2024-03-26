@@ -1,0 +1,4 @@
+FC      = gfortran
+FFLAG   = 
+#FFLAG   = -g -Wall -fbounds-check -O -Wuninitialized -ffpe-trap=invalid,zero,overflow -finit-real=nan -finit-integer=4294967296 -fbacktrace
+FSMP    = -fopenmp

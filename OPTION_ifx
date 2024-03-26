@@ -1,0 +1,3 @@
+FC    = ifx 
+FFLAG = -CB -g -fpe0 -traceback 
+FSMP  = -fopenmp 

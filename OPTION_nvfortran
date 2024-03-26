@@ -1,0 +1,3 @@
+FC    = nvfortran -cpp
+FFLAG = -Mbackslash 
+FSMP  = -mp=multicore -Minfo
