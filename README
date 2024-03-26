@@ -35,4 +35,4 @@ please check local variables state of subroutine or function.
    make
 
 4. Run the shell script (Results of ng_omp.exe may vary in each execution. ) 
-  sh ./go.sh
+   sh ./go.sh
