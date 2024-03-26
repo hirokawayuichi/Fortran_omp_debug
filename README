@@ -1,9 +1,20 @@
-_/_/_/ Fortran Debug Sample Code Using OpenMP _/_/_/
+_/_/_/ Fortran Debug Sample Code Using OpenMP ver.1 _/_/_/
 Written by Y.Hirokawa
 
+[Overview]
+Parallelization using OpenMP often reveal the bug of code. 
+These examples show the bug related to local vaiables: unitialized, update randomly and other factors.  
+While ok.f90 has nobug, ng.f90 has bug. 
+
+If your OpenMP code generates results different from sequential code 
+in case of single thread (or just link openmp library), 
+please check local variables state of subroutine or function. 
+
+
 [Prerequesties]
-- Fortran comipler support OpenMP
+- Fortran comipler supports OpenMP
 - GNU Make
+
 
 [Usage]
 1. Edit Makefile
