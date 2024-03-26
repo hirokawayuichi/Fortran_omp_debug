@@ -1,6 +1,6 @@
-#FC  = gfortran 
+FC  = gfortran 
 #FC  = ifx
-FC = nvfortran
+#FC = nvfortran
 RM  = rm -f
 #RM  = del
 CP  = cp -f
