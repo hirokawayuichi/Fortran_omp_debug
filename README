@@ -4,3 +4,24 @@ Written by Y.Hirokawa
 [Prerequesties]
 - Fortran comipler support OpenMP
 - GNU Make
+
+[Usage]
+1. Edit Makefile
+   For gfortran,       FC = gfortran
+   For Intel Fortran,  FC = ifx
+   For NVIDIA HPC SDK, FC = nvfortran
+   In case of Microsoft windows, please set 
+     RM = del
+     CP = copy /y
+
+2. Edit OPTION_*
+   For gfortran,       please edit OPTION_gfortran
+   For INTEL Fortran,  please edit OPTION_ifx
+   For NVIDIA HPC SDK, please edit OPTION_nvfortran
+
+3. Build executables
+   make clean
+   make
+
+4. Run the shell script (Results of ng_*.exe may vary in each run. ) 
+  sh ./go.sh
