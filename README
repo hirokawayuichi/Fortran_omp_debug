@@ -1,0 +1,6 @@
+_/_/_/ Fortran Debug Sample Code Using OpenMP _/_/_/
+Written by Y.Hirokawa
+
+[Prerequesties]
+- Fortran comipler support OpenMP
+- GNU Make
